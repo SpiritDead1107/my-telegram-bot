@@ -5,9 +5,6 @@ from datetime import datetime
 
 ADMIN_ID = 426269597  # <-- замени на свой user_id
 
-   import os
-   import telebot
-
    TOKEN = os.environ['7834545929:AAFGIMWSTf2RtXIBnz3BTMElpBzzxOpMD4c']
    bot = telebot.TeleBot(TOKEN)
 
