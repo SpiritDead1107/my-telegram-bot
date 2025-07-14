@@ -5,8 +5,11 @@ from datetime import datetime
 
 ADMIN_ID = 426269597  # <-- замени на свой user_id
 
-import os
-bot = telebot.TeleBot(os.environ['7834545929:AAFGIMWSTf2RtXIBnz3BTMElpBzzxOpMD4c'])
+   import os
+   import telebot
+
+   TOKEN = os.environ['7834545929:AAFGIMWSTf2RtXIBnz3BTMElpBzzxOpMD4c']
+   bot = telebot.TeleBot(TOKEN)
 
 CATEGORIES = ['🍔 Еда', '🚗 Транспорт', '🎉 Развлечения', '🏠 Жильё', '📦 Другое']
 
